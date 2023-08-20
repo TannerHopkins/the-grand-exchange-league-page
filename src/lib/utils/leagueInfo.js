@@ -23,78 +23,78 @@ export const managers = [
   {
     "name": "TengoUnchained",
     "managerID": "82566924864995328",
-    // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    "location": "Nashville, TN (CT)", // (optional)
-    "bio": "League Commish. Just here to max my team. IGN: priffindor (ironman).",
-    // "photo": "/managers/priffindor.jpg", // square ratio recommended (no larger than 500x500)
-    "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
-    "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    // "rival": {
-    //   name: "TODO", // Can be anything (usually your rival's name)
-    //   link: 2, // manager array number within this array, or null to link back to all managers page
-    //   // image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    // },
-    "favoritePlayer": 5872, // Deebo Samuel, WR // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    "philosophy": "Make Nieve proud.",
-    "tradingScale": 7, // 1 - 10
-    // "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-  },
-  {
-    "name": "Yed95",
-    "managerID": "427094779021504512",
-    // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-    // "location": "TODO", // (optional)
-    // "bio": "TODO.",
-    // "photo": "/managers/TODO.jpg", // square ratio recommended (no larger than 500x500)
-    // "fantasyStart": TODO, // (optional) when did the manager start playing fantasy football
-    // "favoriteTeam": "TODO", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-    // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-    // "rival": {
-    //   name: "TODO", // Can be anything (usually your rival's name)
-    //   link: 2, // manager array number within this array, or null to link back to all managers page
-    //   // image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-    // },
-    // "favoritePlayer": TODO, // Deebo Samuel, WR // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-    // "valuePosition": "TODO", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-    // "rookieOrVets": "TODO", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-    // "philosophy": "TODO.",
-    // "tradingScale": TODO, // 1 - 10
-    // "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-  },
-  {
-    "name": "WookHunter",
-    "managerID": "468641947918004224",
-  },
-  {
-    "name": "rockerbug",
-    "managerID": "469956414815596544",
-  },
-  {
-    "name": "MrR3dmaa",
-    "managerID": "731364048112820224",
-  },
-  {
-    "name": "Sh1tMyPants",
-    "managerID": "915369314524626944",
-  },
-  {
-    "name": "JRooney1998",
-    "managerID": "915772453522366464",
-  },
-  {
-    "name": "Gopherpaws",
-    "managerID": "915781031142748160",
-  },
-  {
-    "name": "NickFlo99",
-    "managerID": "917664391141892096",
-  },
-  {
-    "name": "scubasteveswag",
-    "managerID": "978363850770714624",
+  //   // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+  //   "location": "Nashville, TN (CT)", // (optional)
+  //   "bio": "League Commish. Just here to max my team. IGN: priffindor (ironman).",
+  //   // "photo": "/managers/priffindor.jpg", // square ratio recommended (no larger than 500x500)
+  //   "fantasyStart": 2009, // (optional) when did the manager start playing fantasy football
+  //   "favoriteTeam": "dal", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+  //   // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+  //   // "rival": {
+  //   //   name: "TODO", // Can be anything (usually your rival's name)
+  //   //   link: 2, // manager array number within this array, or null to link back to all managers page
+  //   //   // image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+  //   // },
+  //   "favoritePlayer": 5872, // Deebo Samuel, WR // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+  //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+  //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+  //   "philosophy": "Make Nieve proud.",
+  //   "tradingScale": 7, // 1 - 10
+  //   // "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+  // },
+  // {
+  //   "name": "Yed95",
+  //   "managerID": "427094779021504512",
+  //   // "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+  //   // "location": "TODO", // (optional)
+  //   // "bio": "TODO.",
+  //   // "photo": "/managers/TODO.jpg", // square ratio recommended (no larger than 500x500)
+  //   // "fantasyStart": TODO, // (optional) when did the manager start playing fantasy football
+  //   // "favoriteTeam": "TODO", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+  //   // "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+  //   // "rival": {
+  //   //   name: "TODO", // Can be anything (usually your rival's name)
+  //   //   link: 2, // manager array number within this array, or null to link back to all managers page
+  //   //   // image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+  //   // },
+  //   // "favoritePlayer": TODO, // Deebo Samuel, WR // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+  //   // "valuePosition": "TODO", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+  //   // "rookieOrVets": "TODO", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+  //   // "philosophy": "TODO.",
+  //   // "tradingScale": TODO, // 1 - 10
+  //   // "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+  // },
+  // {
+  //   "name": "WookHunter",
+  //   "managerID": "468641947918004224",
+  // },
+  // {
+  //   "name": "rockerbug",
+  //   "managerID": "469956414815596544",
+  // },
+  // {
+  //   "name": "MrR3dmaa",
+  //   "managerID": "731364048112820224",
+  // },
+  // {
+  //   "name": "Sh1tMyPants",
+  //   "managerID": "915369314524626944",
+  // },
+  // {
+  //   "name": "JRooney1998",
+  //   "managerID": "915772453522366464",
+  // },
+  // {
+  //   "name": "Gopherpaws",
+  //   "managerID": "915781031142748160",
+  // },
+  // {
+  //   "name": "NickFlo99",
+  //   "managerID": "917664391141892096",
+  // },
+  // {
+  //   "name": "scubasteveswag",
+  //   "managerID": "978363850770714624",
   }
 ]
   
